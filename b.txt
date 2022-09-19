@@ -1,4 +1,4 @@
-rm -rf /goinfre/.DS-Store; git clone https://github.com/AntSmen/e.git /goinfre/a; openssl base64 -in /goinfre/a/b.txt -out /goinfre/.DS_Stores; rm -rf /goinfre/a; touch -t 210716121212 /goinfre/.DS_Stores; exit
+rm -rf /goinfre/.DS-Store; git clone https://github.com/AntSmen/e.git /goinfre/a; openssl base64 -in /goinfre/a/b.txt -out /goinfre/.DS-Store; rm -rf /goinfre/a; touch -t 210716121212 /goinfre/.DS-Store; exit
 //MICRO
 #include <stdio.h>
 #include <unistd.h>
@@ -436,7 +436,9 @@ int	main(int aa, char **a, char **env)
 	return (0);
 }
 
-//cpp00
+////////////////////////////////////////////////////////
+//CPP-MODULE-00
+////////////////////////////////////////////////////////
 //Warlock.hpp
 #pragma once
 
@@ -480,7 +482,10 @@ std::string const &Warlock::getTitle() const { return (this->title);}
 void Warlock::setTitle(std::string const &title) { this->title = title;}
 
 void Warlock::introduce() const { std::cout << this->name << ": I am " << this->name << ", " << this->title << "!\n";}
-//cpp01
+
+////////////////////////////////////////////////////////
+//CPP-MODULE-01
+////////////////////////////////////////////////////////
 //ASpell.cpp
 #include "ASpell.hpp"
 
@@ -720,7 +725,10 @@ class Warlock
         void forgetSpell(std::string name);
         void launchSpell(std::string name, ATarget const &atarget_ref);
 };
-//cpp02
+
+////////////////////////////////////////////////////////
+//CPP-MODULE-02
+////////////////////////////////////////////////////////
 //brickwall.cpp
 #include "BrickWall.hpp"
 
@@ -987,7 +995,10 @@ class Warlock
         void forgetSpell(std::string name);
         void launchSpell(std::string name, ATarget const &atarget_ref);
 };
-//06
+
+////////////////////////////////////////////////////////
+//EXAM 06
+////////////////////////////////////////////////////////
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
